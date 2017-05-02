@@ -13,9 +13,12 @@ namespace GitHuB1
 
             int age;
             Console.WriteLine("Hello GitHub");
-            //Console.WriteLine("Enter your age: ");
-            //age = int.Parse(Console.ReadLine());
-            //Console.Write("Your age is " + age);
+            Console.WriteLine("Enter your age: ");
+            age = int.Parse(Console.ReadLine());
+            Console.Write("Your age is " + age);
+
         }
+    
+        
     }
 }
